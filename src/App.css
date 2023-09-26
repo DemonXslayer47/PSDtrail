@@ -39,7 +39,7 @@ header {
 .header-center {
   text-align: center;
   background-color: #fff; /* Middle section background color */
-  background-image: url('C:\Users\sreeh\Documents\PSDProjectTrial\PSDtrail\images\audi.jpeg'); /* Replace with your image path */
+  background-image: url('../images/audi.jpeg'); /* Replace with your image path */
   background-size: cover; /* Cover the entire section with the image */
   background-position: center; /* Center the image horizontally and vertically */
   background-repeat: no-repeat; /* Prevent image repetition */
