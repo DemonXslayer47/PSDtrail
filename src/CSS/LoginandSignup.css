@@ -1,0 +1,65 @@
+/* Common Styles for Login and Signup */
+.login-signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .login-signup-box {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #d51e1e;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #c51c1c;
+  }
+  
+  .error {
+    color: #d51e1e;
+    margin-top: 10px;
+  }
+  
+  /* Login-specific Styles */
+  .login-image {
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  /* Signup-specific Styles */
+  .signup-image {
+    width: 100px;
+    margin-right: 20px;
+  }
+  

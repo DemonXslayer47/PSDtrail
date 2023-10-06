@@ -19,10 +19,10 @@ function Header() {
         <nav>
           <ul>
             <li>
-              <button onClick={handleHomeClick}>Home</button>
+              <Link to="/">Home</Link> {/* Corrected link */}
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/About">About</Link>
             </li>
             <li>
               <Link to="/our-cars">Our Cars</Link>
@@ -32,9 +32,7 @@ function Header() {
         </nav>
       </div>
       <div className="header-right">
-        <div className="search-bar">
-          <input type="text" placeholder="Search..." />
-          <button>Search</button>
+        <div>
         </div>
         <nav>
           <ul>
